@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green-Wash Tracker | Il Wall of Shame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 Green-Wash Tracker</h1>
+        <p>Smascheriamo il marketing che finge di essere natura.</p>
+    </header>
+
+    <main>
+        <section id="segnala">
+            <h2>📢 Segnala un "Finto Green"</h2>
+            <form id="form-segnalazione">
+                <input type="text" placeholder="Nome prodotto o Slogan (es. 'Amico della Natura')" required>
+                
+                <label for="data">Visto il:</label>
+                <input type="date" id="data" value="2026-03-09">
+
+                <textarea placeholder="Descrivi il controsenso (es: pacco di plastica monouso)..."></textarea>
+                
+                <button type="submit">Aggiungi al Wall of Shame</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="wall-of-shame">
+            <h2>📸 Wall of Shame</h2>
+            <div class="grid-segnalazioni">
+                
+                <article class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Plastica+Ovunque" alt="Esempio Greenwashing">
+                    <div class="content">
+                        <h3>Slogan: "Amico della Natura"</h3>
+                        <p><strong>Realtà:</strong> Tre strati di plastica per una singola mela.</p>
+                        <span class="voto">Voto Onestà: 🤥 (Bugia Totale)</span>
+                        <br>
+                        <time datetime="2026-03-09">Postato il: 9 Marzo 2026</time>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Creato per smascherare i furbetti dell'ambiente.</p>
+    </footer>
+
+</body>
+</html>
